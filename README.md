@@ -14,7 +14,7 @@ Através do [Speech Studio](https://speech.microsoft.com/portal) da Microsoft Az
 
 ## Language Studio Azure  :bulb:
 
-Outra aplicação de uma IA treinada em NPL é quando se trata de interpretar o texto. No último exemplo falei de conversão, aqui falarei de interpretação. Nessa área o programa é capaz de interpretar sentenças, sentimentos a respeito do autor, palavras-chave e mais. Por exemplo, a IA pode ser usada para identificar usuários sendo agressivos com outros, podendo assim intervir, pode ser usada para analisar e retornar as principais avaliações de seu restaurante, mostrando pontos positivos e pontos que precisam de ajustes. Também pode ser utilizado como ferramenta de estudo para previsão de melhores oportunidades para um determinado negócio, como lançamento ou criação de produtos. Através disso pode-se automatizar processos que antes necessitavam de muito tempo para sua conclusão. 
+Outra aplicação de uma IA treinada em NPL é quando se trata de interpretar o texto. No último exemplo falei de conversão, aqui falarei de interpretação. Nessa área o programa é capaz de interpretar frases, sentimentos a respeito do autor, palavras-chave e mais. Por exemplo, a IA pode ser usada para identificar usuários sendo agressivos com outros, podendo assim intervir, pode ser usada para analisar e retornar as principais avaliações de seu restaurante, mostrando pontos positivos e pontos que precisam de ajustes. Também pode ser utilizado como ferramenta de estudo para previsão de melhores oportunidades para um determinado negócio, como lançamento ou criação de produtos. Através disso pode-se automatizar processos que antes necessitavam de muito tempo para sua conclusão. 
 
 No [Language Studio Azure](https://language.cognitive.azure.com/home), enviei o seguinte texto para ser analisado:
 
@@ -27,25 +27,25 @@ Esse foi o retorno obtido:
 
 <img src = "output/resultadoSentimentoTodoOTexto.jpeg">
 
-Perceba que o programa fez a análise de todo o texto, postando sobre qual palavra está se referindo. E até mesmo nos casos que não são adjetivos ele reconhece, como na última linha. Esse programa separa cada sentença para avaliar individualmente e gostaria de falar sobre.
+Perceba que o programa fez a análise de todo o texto, postando sobre qual palavra está se referindo. E até mesmo nos casos que não são adjetivos ele reconhece, como na última linha. Esse programa separa cada frase para avaliar individualmente e gostaria de falar sobre.
 
-#### Sentença 1
+#### Frase 1
 
 <img src = "output/s1.jpeg">
 
-Na primeira sentença perceba que ele identificou os elogios e referências porém, mesmo sem mostrar visualmente sua análise, perceba que foi reconhecido que nessa sentença não havia 100% de afirmações positivas. Ele conseguiu identificar que o trecho "mas o resto deixa a desejar" é uma afirmação negativa. Além disso, veja que o código também consegue listar sobre quais tópicos foram falados e sua porcentagem de positividade ou não. 
+Na primeira frase perceba que ele identificou os elogios e referências porém, mesmo sem mostrar visualmente sua análise, perceba que foi reconhecido que nessa frase não havia 100% de afirmações positivas. Ele conseguiu identificar que o trecho "mas o resto deixa a desejar" é uma afirmação negativa. Além disso, veja que o código também consegue listar sobre quais tópicos foram falados e sua porcentagem de positividade ou não. 
 
-#### Sentença 2
+#### Frase 2
 
 <img src = "output/s2.jpeg">
 
 Aqui temos um resultado completamente diferente. A IA afirma que houve apenas afirmações negativas, identificou que o alvo da crítica foi as cadeiras mas não conseguiu fazer o mesmo a respeito do tempo de chegada. Isso deve ter ocorrido devido a minha linguagem utilizada. Isso é um ótimo exemplo da necessidade do estudo sobre a linguagem coloquial, pois devido a uma determinada forma de se expressar, a IA não identificou corretamente. 
 
-### Sentença 3
+### Frase 3
 
 <img src = "output/s3.jpeg">
 
-Foi falado exemplos em que se fala bem e mal ao mesmo tempo, um exemplo que fala apenas mal e temos aqui um outro exemplo completamente diferente. Nessa sentença foi identificado uma afirmação positiva (atraente 100% sobre o bairro) e uma negativa (ruim 99% sobre o restaurante), mesmo assim a avaliação final foi 100% ruim. 
+Foi falado exemplos em que se fala bem e mal ao mesmo tempo, um exemplo que fala apenas mal e temos aqui um outro exemplo completamente diferente. Nessa frase foi identificado uma afirmação positiva (atraente 100% sobre o bairro) e uma negativa (ruim 99% sobre o restaurante), mesmo assim a avaliação final foi 100% ruim. 
 
 A IA foi capaz de entender que o texto original completo se trata sobre o restaurante e não sobre o bairro. E mais, a afirmação positiva sobre o bairro foi citada apenas para intensificar a afirmação negativa sobre o restaurante. Esse exemplo é perfeito para analisar as capacidades de uma IA em relação a capacidade humana. 
 
@@ -56,4 +56,5 @@ A IA foi capaz de entender que o texto original completo se trata sobre o restau
 O programa concluiu que esse texto tem alguns elogios sobre o restaurante, como quando fala sobre a comida, mas em sua grande maioria contém apenas críticas negativas. 
 
 Quando se trata de IA, primeiro tem que definir o problema e que tipo de aplicação é a mais adequada para alcançar a solução. Seguindo esses dois principais focos é possível usar essa ferramenta de diversas formas ao nosso favor. 
+
 
